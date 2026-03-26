@@ -1,0 +1,39 @@
+{
+  "test_report": {
+    "control": {
+      "precision": 0.8867924528301887,
+      "recall": 0.9791666666666666,
+      "f1-score": 0.9306930693069307,
+      "support": 240.0
+    },
+    "alcohol": {
+      "precision": 0.9767441860465116,
+      "recall": 0.875,
+      "f1-score": 0.9230769230769231,
+      "support": 240.0
+    },
+    "accuracy": 0.9270833333333334,
+    "macro avg": {
+      "precision": 0.9317683194383501,
+      "recall": 0.9270833333333333,
+      "f1-score": 0.926884996191927,
+      "support": 480.0
+    },
+    "weighted avg": {
+      "precision": 0.93176831943835,
+      "recall": 0.9270833333333334,
+      "f1-score": 0.9268849961919269,
+      "support": 480.0
+    }
+  },
+  "test_confusion_matrix": [
+    [
+      235,
+      5
+    ],
+    [
+      30,
+      210
+    ]
+  ]
+}
